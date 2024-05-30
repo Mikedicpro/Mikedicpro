@@ -7,13 +7,8 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-image: url("images/bannerbg.png");
     text-align: center;
-    padding: 10px;
-}
-
-header img {
-    width: 200px;
 }
 
 .content {
