@@ -1,0 +1,88 @@
+body{
+    /* background-color: #7A7260; */
+    /* color: #F8F5E8; */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    /* padding: 0; */
+}
+header{
+    /* background-image: url("images/bannerbg.png"); */
+    background-color: #b3e0ff;
+    text-align: center;
+    /* adding: auto; */
+    /* padding: 20px; */
+    padding: 1rem;
+}
+nav{
+    background-color:#2f4f4f;
+    /* color: #fff; */
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.menu a{
+    text-decoration: none;
+    color:black;
+}
+/* .menu a:hover{ 
+    color: #339933;
+} */
+main{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    padding: 20px;
+}
+.grid-item{
+    /* flex: 1; */
+    /* margin-right: 20px; */
+       padding: 20px;  
+    /* background-color: #fff; */
+     border: 1px solid #DDD;
+    /* border-radius: 5px; */
+    /* margin-bottom: 20px; */
+}
+footer{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+;
+}
+/* Media Quaries for responsive Design mike */
+/* @media screen and (min-width: 600px){ */
+    @media (max-width: 600px){
+         /* flex: 1; */
+         /* flex-direction: column; */
+        /* margin-right: 20px; */
+        /* align-items: center; */
+    }
+
+    .menu{
+        display: flex;
+        /* justify-content: space-around; */
+        margin-bottom: 10px;
+    }
+    .menu li{
+        /* display: block; */
+        /* margin-right: 0; */
+        margin-bottom: 10px;
+    }
+    .grid-container{
+        /* display: flex; */
+        /* flex-direction: column; */
+        grid-template-columns: 1fr 1fr;
+    }
+    .column2{
+        /* flex: 1; */
+        /* margin-right: 0; */
+        order: 3
+    }
